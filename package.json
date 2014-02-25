@@ -1,0 +1,24 @@
+{
+  "name": "nodeschool",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bl": "^0.7.0",
+    "stream-browserify": "~0.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dvause/nodeschool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvause/nodeschool/issues"
+  },
+  "homepage": "https://github.com/dvause/nodeschool"
+}
