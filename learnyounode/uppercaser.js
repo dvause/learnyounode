@@ -4,7 +4,6 @@ var http = require('http'),
 
 var server = http.createServer(function (request, response) {
 	if (request.method != 'POST') {
-		response.writeHead(401);
 		response.end();
 	}
 	request.pipe(map(function(chunk) {
